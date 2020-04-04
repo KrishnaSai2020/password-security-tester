@@ -1,6 +1,7 @@
 import requests
 import hashlib
 import sys
+import re
 
 
 def request_api_data(query_char):
@@ -26,6 +27,14 @@ def pwned_api_check(password):
     return get_password_leaks_count(response, tail)
 
 
+def check_strength(password):
+    pattern = re.compile(r"^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$")
+    return pattern.fullmatch(password)
+
+
+
+
+
 def main(args):
     for password in args:
         count = pwned_api_check(password)
@@ -33,6 +42,11 @@ def main(args):
             print(f'{password} was found {count} times... you should change it')
         else:
             print('your password hasnt been hacked yet')
+            print('lets check its strength..')
+            if check_strength(password) != None:
+                print('your password is very strong')
+            else:
+                print('your password hasnt beend hacked yet but you still change it as it is not very strong')
             # insert strength tester here
     return 'done!'
 
