@@ -28,7 +28,7 @@ def pwned_api_check(password):
 
 
 def check_strength(password):
-    pattern = re.compile(r"^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$")
+    pattern = re.compile(r"^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!?]).*$")
     return pattern.fullmatch(password)
 
 
@@ -43,11 +43,10 @@ def main(args):
         else:
             print('your password hasnt been hacked yet')
             print('lets check its strength..')
-            if check_strength(password) != None:
+            if check_strength(password) is not None:
                 print('your password is very strong')
             else:
                 print('your password hasnt beend hacked yet but you still change it as it is not very strong')
-            # insert strength tester here
     return 'done!'
 
 
