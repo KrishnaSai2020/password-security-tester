@@ -32,9 +32,6 @@ def check_strength(password):
     return pattern.fullmatch(password)
 
 
-
-
-
 def main(args):
     for password in args:
         count = pwned_api_check(password)
