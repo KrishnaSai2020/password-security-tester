@@ -1,7 +1,10 @@
 import requests
 import hashlib
-import sys
 import re
+from flask import Flask, render_template, request, redirect
+import traceback
+
+app = Flask(__name__)
 
 
 def request_api_data(query_char):
@@ -32,23 +35,28 @@ def check_strength(password):
     return pattern.fullmatch(password)
 
 
+def main(password):
+    count = pwned_api_check(password)
+    if count:
+        return count
 
 
-
-def main(args):
-    for password in args:
-        count = pwned_api_check(password)
-        if count:
-            print(f'{password} was found {count} times... you should change it')
-        else:
-            print('your password hasnt been hacked yet')
-            print('lets check its strength..')
-            if check_strength(password) is not None:
-                print('your password is very strong')
-            else:
-                print('your password hasnt beend hacked yet but you still change it as it is not very strong')
-    return 'done!'
+@app.route('/')
+def my_home():
+    return render_template('home.html')
 
 
-if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))
+@app.route('/<string:page_name>')
+def html_page(page_name):
+    return render_template(page_name)
+
+
+@app.route('/submit_form', methods=['POST', 'GET'])
+def submit_form():
+    try:
+        if request.method == 'POST':
+            data = request.form.to_dict()
+            count = main(data['password'])
+            return render_template('result.html', data=count)
+    except Exception:
+        return render_template('home.html')
