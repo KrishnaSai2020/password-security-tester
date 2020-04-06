@@ -59,4 +59,19 @@ def submit_form():
             count = main(data['password'])
             return render_template('result.html', data=count)
     except Exception:
-        return render_template('home.html')
+        return render_template('error.html')
+
+
+@app.route('/submit_form2', methods=['POST', 'GET'])
+def submit_form2():
+    try:
+        if request.method == 'POST':
+            data = request.form.to_dict()
+            result = check_strength(data['password'])
+            if result:
+                data = 'your password is very strong'
+            else:
+                data = 'your password is not very strong try using 8 characters, upper case and lowercase and special characters '
+            return render_template('results2.html', data=data)
+    except Exception:
+        return render_template('error.html')

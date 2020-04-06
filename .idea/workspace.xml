@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e81fa452-a837-4c01-b77d-1d8a57256818" name="Default Changelist" comment="" />
+    <list default="true" id="e81fa452-a837-4c01-b77d-1d8a57256818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/strength.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkmypass.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkmypass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/checker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/checker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/password_strength.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/results2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
