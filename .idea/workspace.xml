@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e81fa452-a837-4c01-b77d-1d8a57256818" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aAsgKdBiuNLKhu4WJY5RjuCaQJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets/images" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="checkmypass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="password-security-tester" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkmypass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.checkmypass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e81fa452-a837-4c01-b77d-1d8a57256818" name="Default Changelist" comment="" />
+      <created>1586189842108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586189842108</updated>
+    </task>
+    <task id="LOCAL-00001" summary="beggininng conversion into a web app">
+      <created>1586189952086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586189952086</updated>
+    </task>
+    <task id="LOCAL-00002" summary="web app has html files established">
+      <created>1586191069931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586191069931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished!!!">
+      <created>1586199220165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586199220165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beggininng conversion into a web app" />
+    <MESSAGE value="web app has html files established" />
+    <MESSAGE value="finished!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished!!!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1586199220009">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1586199220009" />
+    <state width="1419" height="212" key="GridCell.Tab.0.bottom" timestamp="1586192360967">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586192360967" />
+    <state width="1419" height="212" key="GridCell.Tab.0.center" timestamp="1586192360966">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1586192360966" />
+    <state width="1419" height="212" key="GridCell.Tab.0.left" timestamp="1586192360966">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1586192360966" />
+    <state width="1419" height="212" key="GridCell.Tab.0.right" timestamp="1586192360967">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1586192360967" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1586199222345">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1586199222345" />
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1586198240820">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1586198240820" />
+  </component>
+</project>
